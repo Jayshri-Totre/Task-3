@@ -1,60 +1,76 @@
-
-.board{
-    background-color: #0078D4;
-    width: 1286px;
-    height: 1000px;
-    position: relative;
+.comp{
+    margin: 20px;
+  }
+  .App {
+    border-radius: 12px; 
+    padding: 20px;
+    text-align: left;
+    background-color: white;
+    margin: 30px;
+  }
+  .page1{
+    font-family: lato;
+    font-weight: regular;
+    font-size: 20px;
+    color: #000000;
+    line-height: 24px;
+    letter-spacing: 0px;
+  }
+  #time{
+    margin-bottom: 20px;
+  }
+  #nav1{
+    margin-left: 30px;
+    font-family: lato;
+    font-weight: regular;
+    font-size: 24px;
+    color: #92D1FF;
+    line-height: 28px;
+    letter-spacing: 0px;
+  }
+  #nav2{
+    font-family: lato;
+    font-weight: regular;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 28px;
+    letter-spacing: 0px;
+  }
+  #lb1{
+    margin-bottom: 40px;
+    font-family: lato;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0px;
     
   }
-  .rectangle{
+  #pg1bt1{
+    float: right;
+    font-size: 20px;
+    opacity: 50%;
+  }
+  #pg1bt2{
+    border-radius: 5px; 
+    font-family: lato;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #f58e3a;
+    color: #FFFFFF;
+    float: right;
+  }
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
   
-   
-    width: 1100px;
-    height: 500px;
-   
-    border: 2px solid black;
-    background-color: #FFFFFF ;
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    border-radius: 12px;
-    opacity: 1;
+  .App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
   }
-  .gridcontainer{
-    display: grid;
-    grid: 200px / auto auto ;
-    grid-gap: 10px;
   
-    padding: 10px;
-  }
-  .address{
-   padding-top: 20px;
-   padding-left: 20px;
-   text-align: left;
-   font: normal normal bold 24px/28px Lato;
-  letter-spacing: 0px;
-  color: #606060;
-  opacity: 1;
-  }
-  .leftside{
-    width: 400px;
-    padding-top: 20px;
-   padding-left: 20px;
-   text-align: left;
-  font: normal normal bold 20px/24px Lato;
-  letter-spacing: 0px;
-  opacity: 1;
-  color: #686868;
-  }
-  .inputfields{
-    width: 400px;
-    height: 40px;
-    font-size:20px;
-    color: #393939;
-    font: normal normal normal 20px/24px Lato;
-  letter-spacing: 0px;
-    background: #F6F6F6 0% 0% no-repeat padding-box;
-  border: 1px solid #B2B2B2;
-  border-radius: 8px;
-  opacity: 1;
+  .App-intro {
+    font-size: large;
   }
