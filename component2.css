@@ -1,0 +1,64 @@
+
+.view{
+    display: grid;
+    grid: 200px / auto auto ;
+    grid-gap: 5px;
+   
+  }
+  .leftside{
+    width: 250px;
+    
+    text-align: left;
+    font: normal normal bold 20px/24px Lato;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: #686868;
+  }
+  .box
+  {
+
+    width: 500px;
+    height: 500px;
+    background-color: #FFFFFF ;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 12px;
+    opacity: 1;
+  }
+  .Timings
+  {
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: left;
+    font: normal normal bold 20px Lato;
+    letter-spacing: 0px;
+    color: #606060;
+    opacity: 1;
+   }
+   #but
+   {
+    float: right;
+    font-size: 20px;
+    opacity: 100%;
+    color:#FFFFFF;
+    top: 1079px;
+    left: 1119px;
+    width: 145px;
+    height: 56px;
+    background: #FF8000 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 12px #0000000F;
+    border-radius: 6px;
+    opacity: 1;
+   }
+   #button
+   {
+
+    background-color: transparent;
+    border: 0px solid white;
+    color:#0078D4;
+
+   }
+   
+
+
